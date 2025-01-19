@@ -1,0 +1,14 @@
+/Users/blair/RiderProjects/Terminal Assignment - Game Dev. Foundations/Haines-Blair-a1-rpg/bin/Debug/net9.0/Haines-Blair-a1-rpg
+/Users/blair/RiderProjects/Terminal Assignment - Game Dev. Foundations/Haines-Blair-a1-rpg/bin/Debug/net9.0/Haines-Blair-a1-rpg.deps.json
+/Users/blair/RiderProjects/Terminal Assignment - Game Dev. Foundations/Haines-Blair-a1-rpg/bin/Debug/net9.0/Haines-Blair-a1-rpg.runtimeconfig.json
+/Users/blair/RiderProjects/Terminal Assignment - Game Dev. Foundations/Haines-Blair-a1-rpg/bin/Debug/net9.0/Haines-Blair-a1-rpg.dll
+/Users/blair/RiderProjects/Terminal Assignment - Game Dev. Foundations/Haines-Blair-a1-rpg/bin/Debug/net9.0/Haines-Blair-a1-rpg.pdb
+/Users/blair/RiderProjects/Terminal Assignment - Game Dev. Foundations/Haines-Blair-a1-rpg/obj/Debug/net9.0/Haines-Blair-a1-rpg.GeneratedMSBuildEditorConfig.editorconfig
+/Users/blair/RiderProjects/Terminal Assignment - Game Dev. Foundations/Haines-Blair-a1-rpg/obj/Debug/net9.0/Haines-Blair-a1-rpg.AssemblyInfoInputs.cache
+/Users/blair/RiderProjects/Terminal Assignment - Game Dev. Foundations/Haines-Blair-a1-rpg/obj/Debug/net9.0/Haines-Blair-a1-rpg.AssemblyInfo.cs
+/Users/blair/RiderProjects/Terminal Assignment - Game Dev. Foundations/Haines-Blair-a1-rpg/obj/Debug/net9.0/Haines-Blair-a1-rpg.csproj.CoreCompileInputs.cache
+/Users/blair/RiderProjects/Terminal Assignment - Game Dev. Foundations/Haines-Blair-a1-rpg/obj/Debug/net9.0/Haines-Blair-a1-rpg.dll
+/Users/blair/RiderProjects/Terminal Assignment - Game Dev. Foundations/Haines-Blair-a1-rpg/obj/Debug/net9.0/refint/Haines-Blair-a1-rpg.dll
+/Users/blair/RiderProjects/Terminal Assignment - Game Dev. Foundations/Haines-Blair-a1-rpg/obj/Debug/net9.0/Haines-Blair-a1-rpg.pdb
+/Users/blair/RiderProjects/Terminal Assignment - Game Dev. Foundations/Haines-Blair-a1-rpg/obj/Debug/net9.0/Haines-Blair-a1-rpg.genruntimeconfig.cache
+/Users/blair/RiderProjects/Terminal Assignment - Game Dev. Foundations/Haines-Blair-a1-rpg/obj/Debug/net9.0/ref/Haines-Blair-a1-rpg.dll

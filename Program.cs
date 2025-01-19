@@ -11,9 +11,6 @@ string input = Console.ReadLine();
 if (input == "open") 
 {
     //"open" choice path
-    //-not working
-    //figured it out, unfinished rogue bracket
-    //unintentionally have "enter" prompt, kinda works,don't know why
     Console.WriteLine("you open the door and step into a magical ethereal world!");
 }
 else if (input == "closed") 
@@ -60,12 +57,7 @@ Console.WriteLine("After Gaining your bearings, your eyes focus and rest upon a 
             Console.WriteLine("I'll take those 2 pennies");
             Console.WriteLine();
             Console.WriteLine("heres your hatchet");
-            // have to hit enter twice for input to register
-            
-                Console.WriteLine("thank you for your lovely pennies.");
-                
-            
-
+            Console.WriteLine("thank you for your lovely pennies.");
 // deduct pennies. //
             pennies -= 2;
             //update player on their pennies
@@ -151,30 +143,27 @@ Travel:
                 goto Ending;
             }
         }
-
         Console.WriteLine("will you [follow] the trail of blood or [leave]?");
             string input8 = Console.ReadLine();
             if (input8 == "follow")
             {
                 if (hasHatchet)
                 {
-
-
                     Console.Write("you brandish your hatchet and follow the blood trail");
                     Console.WriteLine(" you enter the room the blood trail was leading to, ready to fuck shit up" +
-                                      "you hear a floorboard creak just to the left of the door frame" +
-                                      "without hesitation you swing your hatchet inside the door frame" +
-                                      "THUNK" +
-                                      "you hear a scream and a thud as a bloodied leper falls to the floor");
+                                      "\nyou hear a floorboard creak just to the left of the door frame" +
+                                      "\nwithout hesitation you swing your hatchet inside the door frame" +
+                                      "\nTHUNK" +
+                                      "\nyou hear a scream and a thud as a bloodied leper falls to the floor");
                 }
                 else
                 {
                     Console.WriteLine("You follow the trail to a darkened room." +
                                       "carefully you poke your head in to see if anything is in there" +
-                                      "you look to the left, nothing..." +
-                                      "you look to the right, man with big sword" +
-                                      "theres nothing you can do now" +
-                                      "you accept your fate as your head is cleaved off");
+                                      "\nyou look to the left, nothing..." +
+                                      "\nyou look to the right, man with big sword" +
+                                      "\ntheres nothing you can do now" +
+                                      "\nyou accept your fate as your head is cleaved off");
                     isDead = true;
                 }
             }

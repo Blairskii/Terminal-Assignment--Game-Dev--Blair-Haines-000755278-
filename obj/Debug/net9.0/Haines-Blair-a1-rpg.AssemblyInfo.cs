@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Haines-Blair-a1-rpg")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8bd68f1145c607f6177209701a2fc0ad36076c91")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7fedf1d552ef4561152a4c4b25ecf5c294a52b36")]
 [assembly: System.Reflection.AssemblyProductAttribute("Haines-Blair-a1-rpg")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Haines-Blair-a1-rpg")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

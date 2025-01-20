@@ -32,7 +32,7 @@ else if (input == "closed")
 else
 {
     //handle invalid input and restart scenario
-    Console.WriteLine("You entered an invalid input");
+    Console.WriteLine("not so fast");
     goto Start;
 }
 Console.WriteLine("After Gaining your bearings, your eyes focus and rest upon a grungy man waving at you.");
@@ -48,7 +48,7 @@ Console.WriteLine("After Gaining your bearings, your eyes focus and rest upon a 
 //tell player about hatchet for sale
     Console.Write("theres something strange happening over at the farm"+
         " you should have a weapon to protect yourself with" );
-        Console.WriteLine("im selling a Hatchet for only 2 pennies.");
+        Console.WriteLine(" im selling a Hatchet for only 2 pennies.");
         //ask for pennies player
         Console.WriteLine("how many pennies do you have?");
         bool hasHatchet = false;
@@ -159,10 +159,10 @@ Console.WriteLine(" do you [enter] or [yell]");
                 if (hasHatchet)//if player has the hatchet and follow blood path 
                 {
                     Console.Write("you brandish your hatchet and follow the blood trail");
-                    Console.WriteLine(" you enter the room the blood trail was leading to, ready to fuck shit up" +
+                    Console.WriteLine(" you enter the room the blood trail was leading to, ready to fight" +
                                       "\nyou hear a floorboard creak just to the left of the door frame" +
                                       "\nwithout hesitation you swing your hatchet inside the door frame" +
-                                      "\nTHUNK" +
+                                      "\n    THUNK    " +
                                       "\nyou hear a scream and a thud as a bloodied man falls to the floor");
                 }
                 else

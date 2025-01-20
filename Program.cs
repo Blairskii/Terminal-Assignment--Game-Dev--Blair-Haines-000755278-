@@ -10,7 +10,7 @@ string input = Console.ReadLine();
 
 //check player response From First Scenario
 if (input == "open") 
-{
+{ 
     //if the player chooses to open the cabinet
     Console.WriteLine("you open the door and step into a magical ethereal world!");
 }
@@ -36,20 +36,17 @@ else
     goto Start;
 }
 Console.WriteLine("After Gaining your bearings, your eyes focus and rest upon a grungy man waving at you.");
-    
 // ask player for their name 
-    
-        Console.WriteLine("Hello!\nyou look positively confused! what is your name?");
+Console.WriteLine("Hello!\nyou look positively confused! what is your name?");
         string playername = Console.ReadLine();
         Console.WriteLine();
 //repeat back player input name
         Console.WriteLine($"Nice to meet you {playername}!");
-        
 //tell player about hatchet for sale
     Console.Write("theres something strange happening over at the farm"+
         " you should have a weapon to protect yourself with" );
-        Console.WriteLine(" im selling a Hatchet for only 2 pennies.");
-        //ask for pennies player
+        Console.WriteLine("\nim selling a Hatchet for only 2 pennies.");
+//ask for pennies player
         Console.WriteLine("how many pennies do you have?");
         bool hasHatchet = false;
         int pennies = int.Parse(Console.ReadLine());
@@ -62,7 +59,7 @@ Console.WriteLine("After Gaining your bearings, your eyes focus and rest upon a 
             Console.WriteLine("heres your hatchet");
             Console.WriteLine("thank you for your lovely pennies.");
 // deduct pennies.
-            pennies -= 2;
+            pennies -= 2; 
             //update player on their remaining pennies
             Console.WriteLine($"you have {pennies} pennies left, " +
                               $"can you head to the farm to check on farmer John, im worried about him.");
@@ -75,8 +72,8 @@ Console.WriteLine("After Gaining your bearings, your eyes focus and rest upon a 
 Console.Write("you leave the strange salesman and wander further ahead close by you see a campsite. About three kilometres away is a farm");
 //player options for scenario 
 Travel: 
-        Console.WriteLine("do you check out the [campsite]?");
-        Console.WriteLine("do you trek to the [farm]");
+        Console.WriteLine("\ndo you check out the [campsite]?");
+        Console.WriteLine("\ndo you trek to the [farm]");
 //farm and campsite scenario
         Console.WriteLine();
         bool isDead = false;
@@ -180,9 +177,9 @@ Console.WriteLine(" do you [enter] or [yell]");
             {
                 //leaves farmhouse leading to being killed
                 Console.WriteLine(
-                    "you leave the farmhouse.out of the corners of your eyes you see flickering shadows as if the light behind you is being blocked" +
-                    "you turn around to see what it is" +
-                    "but its too late... a knife is in your back");
+                    "\nyou leave the farmhouse.out of the corners of your eyes you see flickering shadows as if the light behind you is being blocked" +
+                    "\nyou turn around to see what it is" +
+                    "\nbut its too late... a knife is in your back");
                 isDead = true;// player is dead
             }
 //end scenarios based on players choices

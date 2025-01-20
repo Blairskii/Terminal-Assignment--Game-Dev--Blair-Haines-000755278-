@@ -1,5 +1,6 @@
 ﻿using System.Diagnostics;
 //Start of program
+//
 Start:
 Console.WriteLine("You come across a mysterious cabinet you cant seem to recognize");
 //Player options for scenario 1 

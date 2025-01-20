@@ -9,9 +9,9 @@ How to play:
 
 -Read the lines that appear on the screen 
 
--there will be keywords in these lines indicating the choice you have to make 
+-there will be keywords in these lines indicating the choice you have to make. 
 
--these keywords will be signifie by "[]" around a word
+-these keywords will be signified by "[]" around a word.
 
 -in order to progress properly, 
 you must type the key word EXACTLY as is on screen
